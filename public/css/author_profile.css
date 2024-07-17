@@ -1,0 +1,82 @@
+.author-profile{
+    width: 100%;
+    overflow: hidden;
+}
+
+.leftpanel{
+    width: 25%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilepic {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover; /* Đảm bảo rằng hình ảnh được cắt vừa khung tròn */
+}
+.leftpanel h2 {
+    margin-top: 10px;
+}
+
+.rightpanel{
+    font-size:150%;
+    margin-top:20vh;
+    width: 70%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+li{
+    margin-left: 20px;
+}
+
+
+table{
+    border-collapse: collapse;
+    padding:0 10px 0 10px;
+}
+thead {
+    background-color: #0e3746;
+    color: white;
+}
+tr {
+    cursor: pointer;
+}
+tr:hover {
+    background-color: #636363; /* Màu nền khi di chuột qua dòng */
+    color:white;
+}
+th, td{
+    text-align: left;
+    padding: 8px;
+    border-bottom: 0.5px solid #0e3746;
+}
+
+.update-profile-button {
+    margin-top: 30px;
+    display: inline-block;
+    width: 25%;
+    height:5vh;
+    background-color: #0e3746;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}

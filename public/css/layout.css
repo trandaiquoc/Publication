@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f2ec;
+    font-family: "Beiruti", sans-serif;
+}
+/* Font-family */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Beiruti", sans-serif;
+}
+p, li, a, button, input, textarea {
+    font-family: "Beiruti", sans-serif;
+}
+
+header {
+    background-color: #0e3746;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:15vh;
+    width:100%;
+    z-index: 1;
+    position: fixed;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.headleft, .headright{
+    margin:0 5%;
+}
+#logo{
+    font-size: 200%;
+    font-weight:900;
+    margin-right: 5vw;
+}
+.features, #login{
+    margin-right: 1rem;
+    font-size: 150%;
+    font-weight:300;
+    margin-right: 2rem;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+.topic-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(249, 249, 249);
+    width: 20vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%; /* Canh dưới của phần tử cha */
+    margin-top: 10px;
+}
+.account-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 17.5vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 2vw; /* Canh phải của phần tử cha */
+    top: 100%; /* Canh dưới của phần tử cha */
+    margin-top: 10px;
+}
+
+.topic-dropdown-content a, .account-dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    padding:5% 10% 5% 10%;
+}
+
+.topic-dropdown-content a:hover , .account-dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+#topicInput, #account{
+    background:none;
+    border:none;
+    font-size: inherit;
+    font-weight: 100;
+    font-family: inherit; 
+    font-size: inherit;   
+    font-weight: inherit; 
+    color: inherit;
+    cursor: pointer;
+}
+footer {
+    background: #0e3746;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    height:5vh;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+}
+
+main {
+    position: absolute;
+    top: 16vh;
+    bottom: 10vh;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    overflow:auto;
+}

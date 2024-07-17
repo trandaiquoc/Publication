@@ -1,0 +1,135 @@
+.author-profile{
+    width: 100%;
+    overflow: hidden;
+}
+
+.leftpanel{
+    width: 25%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilepic {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover; /* Đảm bảo rằng hình ảnh được cắt vừa khung tròn */
+}
+#name, #bio {
+    margin-top: 10px; 
+    color: rgba(0, 0, 0, 0.515);
+    background: none;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#name{
+    font-size: 1.5em; 
+    font-weight: bold;
+    font-family: "Beiruti", sans-serif;
+}
+#bio{
+    font-size: inherit;
+    font-family: "Beiruti", sans-serif;
+}
+.rightpanel{
+    font-size:150%;
+    margin-top:10vh;
+    width: 70%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+li{
+    margin-left: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 20%; /* Chiều rộng của label */
+    margin-right: 10px;
+    text-align: right; /* Căn phải chữ */
+    font-weight: bold;
+}
+
+.form-group textarea, #website {
+    width: 70%; /* Chiều rộng của textarea */
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1em;
+    resize: vertical; /* Cho phép người dùng thay đổi chiều cao của textarea */
+}
+
+textarea, #website{
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Beiruti", sans-serif;
+}
+
+.buttonsection{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    width: 85%; /* Chiều rộng bằng với textarea */
+    margin-left: auto; /* Đẩy sang phải */
+}
+.buttonsubmit {
+    margin-top: 30px;
+    width: 25%;
+    height:5vh;
+    background-color: #0e3746;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 1em; /* Thiết lập kích thước font */
+    font-family: "Beiruti", sans-serif;
+}
+
+.buttoncancel {
+    margin-top: 30px;
+    width: 25%;
+    height:5vh;
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 1em; /* Thiết lập kích thước font */
+    font-family: "Beiruti", sans-serif; 
+}
+
+#note{
+    color: red;
+    font-size: 65%;
+    width: 75%; /* Chiều rộng bằng với textarea */
+    margin-left: auto; /* Đẩy sang phải */
+    margin-bottom: 10vh;
+}

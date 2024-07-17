@@ -1,0 +1,52 @@
+#searchdiv{
+    text-align: left;
+    padding:2.5% 10px 2.5% 10px;
+    padding-top:30px;
+    width: 100vw;
+    height:10%;
+    margin-bottom:0%;
+    display: flex;
+    align-items: center;
+}
+.searchtext{
+    border: 3px solid #0e3746;
+    border-radius: 5px;
+    width: 90%;
+    height:90%;
+    text-indent: 10px;
+    font-family: "Beiruti", sans-serif;
+    font-size: 1.5rem;
+}
+table{
+    border-collapse: collapse;
+    width: 90vw;
+    padding:0 10px 0 10px;
+}
+thead {
+    background-color: #0e3746;
+    color: white;
+}
+tr {
+    cursor: pointer;
+}
+tr:hover {
+    background-color: #636363; /* Màu nền khi di chuột qua dòng */
+    color:white;
+}
+th, td{
+    text-align: left;
+    padding: 8px;
+    border-bottom: 0.5px solid #0e3746;
+}
+
+.pagination {
+    display: flex;
+    margin-top:1rem;
+    bottom: 20%;
+    width: 100%;
+    justify-content: center;
+}
+
+.nmb{
+    margin-right: 1rem;
+}

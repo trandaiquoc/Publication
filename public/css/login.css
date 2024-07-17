@@ -1,0 +1,52 @@
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-container h1 {
+    font-size: 250%;
+    color: #0e3746;
+}
+
+.form-group {
+    width: 50%;
+    margin-top:5vh;
+}
+#user, #pass
+{
+    margin-bottom: 5vh;
+}
+label {
+    margin-bottom: 10px;
+    color: rgb(14, 55, 70);
+}
+
+#username,#password {
+    width: 100%;
+    height: 7.5vh;
+    font-size: 16px;
+    border: 3px solid rgba(14, 55, 70, 0.3);
+    border-radius: 25px;
+    box-sizing: border-box;
+    color: rgb(14, 55, 70);
+    text-indent: 10px;
+}
+
+.login-button {
+    width: 100%;
+    height: 7.5vh;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(14, 55, 70, 0.3);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #000000; /* Màu nút hover */
+}

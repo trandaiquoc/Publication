@@ -1,0 +1,60 @@
+#addPaperForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 20%; /* Chiều rộng của label */
+    margin-right: 10px;
+    text-align: right; /* Căn phải chữ */
+    font-weight: bold;
+}
+
+.form-group textarea, .form-group input, .form-group select {
+    width: 70%; /* Chiều rộng của textarea, input và select */
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1em;
+    resize: vertical; /* Cho phép người dùng thay đổi chiều cao của textarea */
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Beiruti", sans-serif;
+}
+
+h2 {
+    font-size: 200%;
+    color: #0e3746;
+}
+#author{
+    width: 12.5%;
+}
+button {
+    margin-top: 30px;
+    align-self: center; /* Căn giữa button */
+    width: 25%;
+    height: 5vh;
+    background-color: #0e3746;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    font-size: 1em; /* Thiết lập kích thước font */
+    font-family: "Beiruti", sans-serif;
+}
+
+#note{
+    margin-left: 20px;
+    color: red;
+    width: 70%; /* Chiều rộng bằng với textarea */
+    margin-left: auto; /* Đẩy sang phải */
+}
